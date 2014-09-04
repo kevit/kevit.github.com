@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [ mysql , constraints]
 ---
-{% include JB/setup %}
 
 В данном случае это внешний ключ. Бывают ещё первичные ключи. Плюс,
 посмотрите ещё в сторону уникальных индексов - UNIQUE INDEX.

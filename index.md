@@ -1,7 +1,7 @@
 ---
 layout: page
-title: kevit.github.io
-tagline: Some stuff
+title: All posts
+tagline: 
 ---
 
 <ul class="posts">

@@ -1,8 +1,13 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+#permalink: /:categories/:year/:month/:day/:title 
+permalink: pretty
+
+url:              http://kevit.github.io
+baseurl:          /
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: redcarpet
 pygments: true
 
 # Themes are encouraged to use these universal variables 

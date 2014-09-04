@@ -5,7 +5,6 @@ description: ""
 category: 
 tags: [ mac, sysadmins ]
 ---
-{% include JB/setup %}
 
 #macos PPTP routes
 http://hints.macworld.com/article.php?story=20060216061850917

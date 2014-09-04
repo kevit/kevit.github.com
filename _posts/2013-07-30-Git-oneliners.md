@@ -28,5 +28,25 @@ categories: git
 	#!sh
 	vim .git/info/exclude
 
+###How to fix git error no refs
+No refs in common and none specified; doing nothing.
+Perhaps you should specify a branch such as 'master'.
 
+how to fix:
+  #!sh  
+
+  git push origin master
+
+###how to debug ssh git repo 
+ssh -vT git@git
+
+###git new feature workflow
+
+git clone git@git:cookbooks/swift.git
+git branch feature/swift_undelete
+git checkout feature/swift_undelete
+vim proxy-server.conf.erb
+git add proxy-server.conf.erb
+git commit -m 'adding swift_undelete middleware'
+git push -u origin feature/swift_undelete###
 
