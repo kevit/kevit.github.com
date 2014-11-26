@@ -7,12 +7,11 @@ tags: [git, ssh]
 ---
 
 #### How to regenerate public key using old private key
-{% highlight sh %}
+```bash
 ssh-keygen -y -f private.key
-{% endhighlight %}
+```
 
 #### How to check connect to the git repository using ssh
-{% highlight sh %}
+```bash
  ssh -vT git@git.pagodabox.com
-{% endhighlight %}
-
+```
