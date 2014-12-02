@@ -35,6 +35,7 @@ No refs in common and none specified; doing nothing.
 Perhaps you should specify a branch such as 'master'.
 
 how to fix:
+
 ```bash
   git push origin master
 ```
