@@ -6,19 +6,18 @@ published: true
 tags: mikrotik openvpn network 
 ---
 
-
+```bash
 /ip pool add name=openvpn-pool ranges=172.28.1.10-172.28.1.20
 /interface bridge add name=vpn-bridge
-
 /ppp profile add change-tcp-mss=default comment="" bridge=vpn-bridge
 local-address=172.28.1.1 name="openvpn-profile" only-one=default
 remote-address=openvpn-pool use-compression=default
 use-encryption=required use-vj-compression=default 
 /ppp secret add caller-id="" comment="" disabled=no limit-bytes-in=0
-limit-bytes-out=0 name="kevit" password="kevit" routes="" service=any
+limit-bytes-out=0 name="kevit" password="password" routes="" service=any
 profile="openvpn-profile"
 /ppp secret add caller-id="" comment="" disabled=no limit-bytes-in=0
-limit-bytes-out=0 name="andy" password="yPKBzFQnYhTf5" routes=""
+limit-bytes-out=0 name="name" password="password" routes=""
 service=any profile="openvpn-profile"
 /certificate import file=openvpn-server.crt
 /certificate import file-name=openvpn-server.key
@@ -30,4 +29,4 @@ netmask=24 port=1194 require-client-certificate=no
 /ip firewall filter add action=accept chain=input comment="OpenVPN"
 disabled=no dst-port=1194 protocol=tcp
 /interface bridge port add interface=VLAN100 bridge=vpn-bridge
-
+```
