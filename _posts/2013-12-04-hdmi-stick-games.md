@@ -90,7 +90,7 @@ mali 101258 2 - Live 0x00000000
 ump 26232 5 mali, Live 0x00000000
 ```
 
-```basha
+```bash
 cat /proc/version                                         
 Linux version 3.0.36+ (lynn@lynn-GA-78LMT-S2P) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 PREEMPT Wed Oct 9 17:11:20 CST 2013
 ```
