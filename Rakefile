@@ -77,6 +77,12 @@ end # task :post
 # Usage: rake page name="about.html"
 # You can also specify a sub-directory path.
 # If you don't specify a file extention we create an index.html at the path specified
+#
+desc "Edit first unedit page"
+task :editor do
+  system "vim `grep -l \"published\: false\" _posts/* |head -1`"
+end
+
 desc "Create a new page."
 task :page do
   name = ENV["name"] || "new-page.md"
