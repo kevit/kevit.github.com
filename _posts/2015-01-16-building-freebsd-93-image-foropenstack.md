@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Building FreeBSD 9.3 image for OpenStack"
+published: false
 description: ""
 category: 
 tags: [freebsd, openstack]

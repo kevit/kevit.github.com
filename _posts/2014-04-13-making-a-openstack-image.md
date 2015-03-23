@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Making an openstack image"
+published: false
 description: ""
 category: 
 tags: []

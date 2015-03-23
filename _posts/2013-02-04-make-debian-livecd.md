@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to make Debian LiveCD"
+published: false
 description: ""
 category: 
 tags: []

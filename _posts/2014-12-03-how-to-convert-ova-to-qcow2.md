@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to convert OVA to QCOW2 format"
+published: false
 description: ""
 category: 
 tags: [openstack , ova , qcow2 , vmware]

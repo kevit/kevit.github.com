@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Making a Vagrant test enviroment for chef development"
+published: false
 description: ""
 category: 
 tags: []

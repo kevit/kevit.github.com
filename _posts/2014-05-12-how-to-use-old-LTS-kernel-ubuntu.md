@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "how to use old LTS kernel in Ubuntu"
+published: false
 description: ""
 category: 
 tags: []

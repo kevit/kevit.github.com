@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to build native Ruby extention OS X"
+published: false
 description: ""
 category: 
 tags: [osx, ruby]

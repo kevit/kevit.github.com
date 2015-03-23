@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to make Python Debian package"
+published: false
 description: ""
 category: 
 tags: []

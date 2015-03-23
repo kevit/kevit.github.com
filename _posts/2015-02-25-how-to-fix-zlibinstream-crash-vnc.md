@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to fix ZlibInStream crash VNC"
+published: false
 description: ""
 category: 
 tags: [VNC, linux]

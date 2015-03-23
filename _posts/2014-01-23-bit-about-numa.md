@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bit about NUMA"
+published: false
 description: ""
 category: 
 tags: []

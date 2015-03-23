@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Debugging Wifi connection in Linux"
+published: false
 description: ""
 category: 
 tags: [linux]

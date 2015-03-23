@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to make Debian package based on MBSE BBS "
+published: false
 description: ""
 category: 
 tags: []

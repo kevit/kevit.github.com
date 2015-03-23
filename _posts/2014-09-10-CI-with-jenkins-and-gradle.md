@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CI with Jenkins and Gradle"
+published: false
 description: ""
 category: 
 tags: []

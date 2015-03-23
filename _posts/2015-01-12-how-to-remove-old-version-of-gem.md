@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to remove old version of gem"
+published: false
 description: ""
 category: 
 tags: [ruby, osx, chefdk]

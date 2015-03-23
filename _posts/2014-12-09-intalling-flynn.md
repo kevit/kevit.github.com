@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Installing Flynn"
+published: false
 description: ""
 category: 
 tags: [docker , heroku , flynn , hosting]

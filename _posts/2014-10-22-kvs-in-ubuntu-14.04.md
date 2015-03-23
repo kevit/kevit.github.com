@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to install KVS in Ubuntu 14.04"
+published: false
 description: ""
 category:
 tags: [php, ubuntu]

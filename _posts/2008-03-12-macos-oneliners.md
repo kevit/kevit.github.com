@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Useful MacOS cli commands"
+published: false
 description: ""
 category: 
 tags: []

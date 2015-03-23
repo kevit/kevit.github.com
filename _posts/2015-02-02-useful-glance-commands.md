@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Useful glance commands"
+published: false
 description: ""
 category: 
 tags: [glance, openstack]

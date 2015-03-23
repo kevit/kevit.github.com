@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to fix some kind of installation troubles SAS/IR6 Debian"
+published: false
 description: ""
 category: 
 tags: []

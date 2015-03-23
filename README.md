@@ -30,3 +30,7 @@ For original project's usage and documentation please see: <http://jekyllbootstr
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/jekyll-bootstrap-3/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+## Make all pages unpublished
+for i in `grep -L "published: true" _posts/*`; do sed -i '4ipublished:
+false' $i; done

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setting video cam for Linux"
+published: false
 description: ""
 category: 
 tags: [linux]

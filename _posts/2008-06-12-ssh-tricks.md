@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "ssh tricks"
+published: false
 description: ""
 category: 
 tags: [ssh]

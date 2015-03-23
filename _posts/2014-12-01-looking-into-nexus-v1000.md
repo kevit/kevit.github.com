@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Looking into Nexus v1000"
+published: false
 description: ""
 category: 
 tags: [openstack , ova , qcow2 , vmware]

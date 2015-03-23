@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to start new chef project"
+published: false
 description: ""
 category: 
 tags: []

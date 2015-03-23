@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to prevent grub stucking in boot menu Ubuntu 12.04"
+published: false
 description: ""
 category: 
 tags: []

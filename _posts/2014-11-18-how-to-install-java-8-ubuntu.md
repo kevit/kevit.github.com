@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to install Java 8 in Ubuntu 14.04"
+published: false
 description: ""
 category: 
 tags: [java8 , ubuntu]
