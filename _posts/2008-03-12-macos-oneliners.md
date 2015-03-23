@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Useful MacOS cli commands"
-published: false
+published: true
 description: ""
 category: 
-tags: []
+tags: [osx, cli]
 ---
 
 ## All kext not from Apple
