@@ -48,6 +48,11 @@ RAM: DDR3, DDR3L RAM support
 
 ## Rooting
 
+
+apt-get install build-essential
+
+
+
 sudo apt-get install android-tools-adb
 echo 'SUBSYSTEM=="usb", ATTR{idVendor}=="2207", MODE="0666", GROUP="plugdev"' > "/etc/udev/rules.d/51-android.rules" 
 udevadm control --reload-rules
@@ -56,7 +61,39 @@ Log in with your normal    unix user, and edit ~/.android/adb_usb.ini,
 add 0x2207 at the end of the file
 As user, restart the adb server with "adb kill-server; adb
 start-server"
-•adbAs user, you should be able to list your device with "adb devices"
+
+As user, you should be able to list your device with "adb devices"
+
+adb shell
+
+```bash
+#cat /proc/cpuinfo
+Processor: ARMv7 Processor rev 0 (v7l)
+BogoMIPS: 1631.46
+Features: swp half thumb fastmult vfp edsp neon vfpv3 
+CPU implementer: 0x41
+CPU architecture: 7
+CPU variant: 0x3
+CPU part: 0xc09
+CPU revision: 0
+
+Hardware: RK2928board
+Revision: 0000
+Serial: 0000000000000000
+```
+
+```bash
+root@android:/data # lsmod
+wlan 652931 0 - Live 0x00000000
+vpu_service 11919 0 - Live 0x00000000
+mali 101258 2 - Live 0x00000000
+ump 26232 5 mali, Live 0x00000000
+```
+
+```basha
+cat /proc/version                                         
+Linux version 3.0.36+ (lynn@lynn-GA-78LMT-S2P) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #1 PREEMPT Wed Oct 9 17:11:20 CST 2013
+```
 
 http://www.rockchipfirmware.com/developer-tools
 http://stackoverflow.com/questions/14460656/android-debug-bridge-adb-device-no-permissions
