@@ -65,12 +65,13 @@ task :post do
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts 'description: ""'
     post.puts "category: "
+    post.puts "published: false"
     post.puts "tags: #{tags}"
     post.puts "---"
     post.puts ""
 #    post.puts "{% include JB/setup %}"
   end
-   system "vim -c 'startinsert' +8 #{filename}"
+   system "vim -c 'startinsert' +9 #{filename}"
 end # task :post
 
 # Usage: rake page name="about.html"
