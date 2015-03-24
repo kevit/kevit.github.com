@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ssh tricks"
+title: "Ssh tricks"
 published: true
 description: ""
 category: 
