@@ -1,50 +1,56 @@
 ---
 layout: post
 title: "Making a Vagrant test enviroment for chef development"
-published: false
+published: true
 description: ""
 category: 
-tags: []
+tags: [chef, osx]
 ---
 
-rvm use 1.9.2@chef --create
+
+##Initial settings
+
+```bash
+rvm use 1.9.3@chef --create
 sudo gem install bundler
 sudo bundle install
+```
 
+## Using your hardware servers from vagrant
+
+```bash
 vagrant plugin install vagrant-managed-servers
 vagrant box add dummy
 https://github.com/tknerr/vagrant-managed-servers/raw/master/dummy.box
 --provider=managed
+```
 
+## Install necessary plugins
+
+```bash
 vagrant plugin install vagrant-omnibus
 vagrant plugin install vagrant-berkshelf --plugin-version '>= 2.0.1'
+```
 
-kitchen init
-(knife solo init .)???
 
-http://stackoverflow.com/questions/1519006/git-how-to-create-remote-branch
-
-http://stackoverflow.com/questions/22531452/chef-workflow-for-new-cookbooks
-http://leopard.in.ua/2013/01/04/chef-solo-getting-started-part-1/
-http://leopard.in.ua/2013/02/17/chef-server-getting-started-part-1/
-http://leopard.in.ua/2013/12/01/chef-and-tdd/
+* [Git remote](http://stackoverflow.com/questions/1519006/git-how-to-create-remote-branch)
+* [Example of workflow](http://stackoverflow.com/questions/22531452/chef-workflow-for-new-cookbooks)
+* [Test Driven Development for Chef](http://leopard.in.ua/2013/12/01/chef-and-tdd/)
 
 
 
 
 
-##Vagrant tricks
-#vagrant inline provision
-# install some base packages
-  config.vm.provision :shell, :inline => "sudo aptitude -y install
-build-essential"
+##Some Vagrant tricks
 
-#Shared folders
-The apt cache solution is working with a share folder between my laptop,
-and it’s also affected by a dsl change in vagrant :
-1
-config.vm.share_folder "v-cache", "/var/cache/apt/archives/", cache_dir 
-is now called synced folder :
-1
-config.vm.synced_folder cache_dir, '/var/cache/apt/archives/', id:
-'v-cache', owner: 'vagrant', group: 'www-data'
+###Vagrant inline provision
+
+```
+  config.vm.provision :shell, :inline => "sudo aptitude -y install build-essential"
+```
+
+###Shared folders
+
+```
+config.vm.synced_folder cache_dir, '/var/cache/apt/archives/', id: 'v-cache', owner: 'vagrant', group: 'www-data'
+```
