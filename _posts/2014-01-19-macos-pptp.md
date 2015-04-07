@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Strange MacOS PPTP routing problems"
-published: false
+published: true
 description: ""
 category: 
-tags: [ mac, sysadmins ]
+tags: [ OSX, sysadmins ]
 ---
 
-#macos PPTP routes
-http://hints.macworld.com/article.php?story=20060216061850917
-http://www.macfreek.nl/memory/Modify_PPTP_Routing_Table
-http://pomidorchi.livejournal.com/259478.html
-maces pptp have a trouble with auth on any place that is no default
+##macos PPTP routes
+OSX pptp have a trouble with auth on any place that is no default route
+
+[Full hint on MacWorld](http://hints.macworld.com/article.php?story=20060216061850917)
