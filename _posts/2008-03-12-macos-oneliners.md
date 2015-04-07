@@ -2,7 +2,7 @@
 layout: post
 title: "Useful MacOS cli commands"
 published: true
-description: ""
+description: "List of useful OSX commands"
 category: 
 tags: [osx, cli]
 ---

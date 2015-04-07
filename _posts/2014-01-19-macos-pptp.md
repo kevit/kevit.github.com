@@ -2,7 +2,7 @@
 layout: post
 title: "Strange MacOS PPTP routing problems"
 published: true
-description: ""
+description: "Caveat in PPTP OSX "
 category: 
 tags: [ OSX, sysadmins ]
 ---

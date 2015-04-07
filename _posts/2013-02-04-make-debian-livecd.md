@@ -2,7 +2,7 @@
 layout: post
 title: "How to make Debian LiveCD"
 published: true
-description: ""
+description: "Steps to make Debian LiveCD"
 category: 
 tags: [debian]
 ---

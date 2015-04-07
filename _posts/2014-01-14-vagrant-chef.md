@@ -2,7 +2,7 @@
 layout: post
 title: "Making a Vagrant test enviroment for chef development"
 published: true
-description: ""
+description: "Using Vagrant to test cookbooks"
 category: 
 tags: [chef, osx]
 ---

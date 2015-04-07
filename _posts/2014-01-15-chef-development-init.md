@@ -2,7 +2,7 @@
 layout: post
 title: "How to start new chef project in OSX"
 published: true
-description: ""
+description: "Using meez to Chef development"
 category: 
 tags: [chef, osx]
 ---

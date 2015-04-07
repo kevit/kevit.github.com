@@ -2,7 +2,7 @@
 layout: post
 title: "Ssh tricks"
 published: true
-description: ""
+description: "Useful SSH tricks"
 category: 
 tags: [ssh]
 ---

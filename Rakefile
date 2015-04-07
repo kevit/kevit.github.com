@@ -83,6 +83,11 @@ task :editor do
   system "vim `grep -l \"published\: false\" _posts/* |head -1`"
 end
 
+desc "Filling up descriptions"
+task :filltag do
+  system "vim `grep -l \"description\: \"\"\" _posts/* |xargs grep -l \"published\: true\"|head -1`"
+end
+
 desc "Create a new page."
 task :page do
   name = ENV["name"] || "new-page.md"

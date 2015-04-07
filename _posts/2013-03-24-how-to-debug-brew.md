@@ -2,7 +2,7 @@
 layout: post
 title: "How to debug brew receipt setup"
 published: true
-description: ""
+description: "Dark side of brewery in OSX"
 category: 
 tags: [osx]
 ---

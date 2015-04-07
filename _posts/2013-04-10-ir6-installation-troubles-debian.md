@@ -2,7 +2,7 @@
 layout: post
 title: "How to fix some kind of installation troubles SAS/IR6 in Debian"
 published: true
-description: ""
+description: "IR6 controller debugging in Debian"
 category: 
 tags: [ir6, debian]
 ---

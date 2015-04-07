@@ -2,7 +2,7 @@
 layout: post
 title: "How to root Galaxy S3"
 published: true
-description: ""
+description: "Steps to root Galaxy S3 phone"
 category: 
 tags: [android]
 ---
