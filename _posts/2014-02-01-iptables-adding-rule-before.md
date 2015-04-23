@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "How to add rule in iptables before anything else"
-published: false
-description: ""
+title: "How to add rule in iptables at the first place"
+published: true
+description: "Useful way to adding iptables rules"
 category: 
-tags: []
+tags: [iptables, linux]
 ---
 
-{% highlight sh %}
+```bash
 iptables -I INPUT 1 -p tcp --dport 80 -j ACCEPT
-{% endhighlight %}
+```
