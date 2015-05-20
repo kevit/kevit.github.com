@@ -19,3 +19,5 @@ Load your image into OpenStack using right hardware flag settings
 ```bash
 glance image-create --name junos --disk-format=qcow2 --container-format=bare --is-public=false --property hw_disk_bus=ide --property hw_vif_model=e1000 < juniper.qcow2
 ```
+
+[Building your own Olive](http://brezular.com/2012/08/04/how-to-run-junos-installed-on-qemu-on-virtualbox-part1-introduction/)
