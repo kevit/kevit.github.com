@@ -63,5 +63,5 @@ boot2docker upgrade
 You can clone my [git](https://github.com/kevit/knife-digital_ocean) repo with Dockerfile and updated readme
 
 ## Links
-[boot2docker debug](http://stackoverflow.com/questions/26572112/running-boot2docker-error-in-run-failed-to-get-machine-boot2docker-vm-mac)
-[ways to copy files into docker container](http://stackoverflow.com/questions/22907231/copying-files-from-host-to-docker-container)
+* [boot2docker debug](http://stackoverflow.com/questions/26572112/running-boot2docker-error-in-run-failed-to-get-machine-boot2docker-vm-mac)
+* [ways to copy files into docker container](http://stackoverflow.com/questions/22907231/copying-files-from-host-to-docker-container)
